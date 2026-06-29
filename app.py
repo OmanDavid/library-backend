@@ -9,7 +9,7 @@ app.register_blueprint(library_bp,url_prefix='/library')
 
 @app.route('/home')
 def home():
-    resp = make_response("<h1>Hello There</h1>",201,{'token':'FGHHG67GJHFZ'})
+    resp = make_response("<h1>Hello The</h1>",201,{'token':'FGHHG67GJHFZ'})
     return resp
 
 @app.route('/about')
